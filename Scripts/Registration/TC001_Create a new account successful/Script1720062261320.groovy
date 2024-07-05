@@ -102,5 +102,3 @@ WebUI.takeScreenshot('C:\\Taskbuddy\\Dashboard.png')
 
 
 
-
-

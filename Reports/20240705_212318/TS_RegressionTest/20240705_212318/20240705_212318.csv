@@ -1,0 +1,203 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest,Firefox 122.0,,,05-07-2024 21:23:31,05-07-2024 21:25:40,2m - 8.981s,PASSED
+,,,,,,,
+Test Cases/Registration/TC001_Create a new account successful,Firefox 122.0,,,05-07-2024 21:23:32,05-07-2024 21:23:57,24.884s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:23:32,05-07-2024 21:23:39,7.202s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:23:40,05-07-2024 21:23:44,4.319s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:23:44,05-07-2024 21:23:44,0.065s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:23:44,05-07-2024 21:23:44,0.004s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:23:44,05-07-2024 21:23:45,0.149s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:23:45,05-07-2024 21:23:45,0.030s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:23:45,05-07-2024 21:23:49,4.427s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.026s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.005s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.017s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.004s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.344s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.005s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.009s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:49,0.006s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_name""), fullname)",Firefox 122.0,,,05-07-2024 21:23:49,05-07-2024 21:23:50,0.665s,PASSED
+"println(""The fullname should be filled"")",Firefox 122.0,,,05-07-2024 21:23:50,05-07-2024 21:23:50,0.007s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_email""), email)",Firefox 122.0,,,05-07-2024 21:23:50,05-07-2024 21:23:51,0.599s,PASSED
+"println(""The email should be filled"")",Firefox 122.0,,,05-07-2024 21:23:51,05-07-2024 21:23:51,0.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password""), password)",Firefox 122.0,,,05-07-2024 21:23:51,05-07-2024 21:23:51,0.386s,PASSED
+"println(""The password should be filled"")",Firefox 122.0,,,05-07-2024 21:23:51,05-07-2024 21:23:51,0.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation""), confirmpassword)",Firefox 122.0,,,05-07-2024 21:23:51,05-07-2024 21:23:51,0.326s,PASSED
+"println(""The confirm password should be filled"")",Firefox 122.0,,,05-07-2024 21:23:51,05-07-2024 21:23:51,0.007s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn""))",Firefox 122.0,,,05-07-2024 21:23:51,05-07-2024 21:23:53,2.068s,PASSED
+"println(""The login button should be clickable"")",Firefox 122.0,,,05-07-2024 21:23:53,05-07-2024 21:23:53,0.005s,PASSED
+ActualLoginPage = getUrl(),Firefox 122.0,,,05-07-2024 21:23:53,05-07-2024 21:23:54,0.022s,PASSED
+"ExpectedLoginPage = ""https://task-buddy-d414881265e1.herokuapp.com/dashboard""",Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:54,0.002s,PASSED
+"verifyMatch(ActualLoginPage, ExpectedLoginPage, false)",Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:54,0.027s,PASSED
+"ActualDashboardPage = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_taskbuddy_title""))",Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:54,0.332s,PASSED
+"ExpectedDashboardPage = ""Task Buddy""",Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:54,0.002s,PASSED
+"verifyMatch(ActualDashboardPage, ExpectedDashboardPage, false)",Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:54,0.004s,PASSED
+"takeScreenshot(""C:\Taskbuddy\Dashboard.png"")",Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:54,0.435s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:23:54,05-07-2024 21:23:57,2.292s,PASSED
+,,,,,,,
+Test Cases/Registration/TC002_Create a new account with invalid email,Firefox 122.0,,,05-07-2024 21:23:57,05-07-2024 21:24:18,20.863s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:23:57,05-07-2024 21:24:03,6.504s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:24:04,05-07-2024 21:24:08,4.149s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:24:08,05-07-2024 21:24:08,0.031s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:24:08,05-07-2024 21:24:08,0.003s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:24:08,05-07-2024 21:24:08,0.007s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:24:08,05-07-2024 21:24:08,0.004s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:24:08,05-07-2024 21:24:12,4.511s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:24:12,05-07-2024 21:24:12,0.044s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:24:12,05-07-2024 21:24:12,0.007s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:24:12,05-07-2024 21:24:12,0.012s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:24:12,05-07-2024 21:24:12,0.004s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:24:12,05-07-2024 21:24:13,0.285s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:24:13,05-07-2024 21:24:13,0.003s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:24:13,05-07-2024 21:24:13,0.008s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:24:13,05-07-2024 21:24:13,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_name""), fullname)",Firefox 122.0,,,05-07-2024 21:24:13,05-07-2024 21:24:13,0.583s,PASSED
+"println(""The fullname should be filled"")",Firefox 122.0,,,05-07-2024 21:24:13,05-07-2024 21:24:13,0.004s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_email""), email)",Firefox 122.0,,,05-07-2024 21:24:13,05-07-2024 21:24:14,0.584s,PASSED
+"println(""The email should be filled"")",Firefox 122.0,,,05-07-2024 21:24:14,05-07-2024 21:24:14,0.006s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password""), password)",Firefox 122.0,,,05-07-2024 21:24:14,05-07-2024 21:24:14,0.321s,PASSED
+"println(""The password should be filled"")",Firefox 122.0,,,05-07-2024 21:24:14,05-07-2024 21:24:14,0.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation""), confirmpassword)",Firefox 122.0,,,05-07-2024 21:24:14,05-07-2024 21:24:14,0.292s,PASSED
+"println(""The confirm password should be filled"")",Firefox 122.0,,,05-07-2024 21:24:14,05-07-2024 21:24:14,0.003s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn""))",Firefox 122.0,,,05-07-2024 21:24:14,05-07-2024 21:24:15,0.512s,PASSED
+"println(""The login button should be clickable"")",Firefox 122.0,,,05-07-2024 21:24:15,05-07-2024 21:24:15,0.003s,PASSED
+ActualInvalidEmailPage = getUrl(),Firefox 122.0,,,05-07-2024 21:24:15,05-07-2024 21:24:15,0.013s,PASSED
+"ExpectedInvalidEmailPage = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:24:15,05-07-2024 21:24:15,0.003s,PASSED
+"verifyMatch(ActualInvalidEmailPage, ExpectedInvalidEmailPage, false)",Firefox 122.0,,,05-07-2024 21:24:15,05-07-2024 21:24:15,0.009s,PASSED
+"takeScreenshot(""C:\Taskbuddy\InvalidEmail.png"")",Firefox 122.0,,,05-07-2024 21:24:15,05-07-2024 21:24:16,0.840s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:24:16,05-07-2024 21:24:17,1.624s,PASSED
+,,,,,,,
+Test Cases/Registration/TC003_Create a new account with invalid password,Firefox 122.0,,,05-07-2024 21:24:18,05-07-2024 21:24:35,17.801s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:24:18,05-07-2024 21:24:22,4.591s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:24:22,05-07-2024 21:24:27,4.133s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:24:27,05-07-2024 21:24:27,0.022s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:24:27,05-07-2024 21:24:27,0.001s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:24:27,05-07-2024 21:24:27,0.003s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:24:27,05-07-2024 21:24:27,0.010s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:24:27,05-07-2024 21:24:31,4.579s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.013s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.001s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.004s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.001s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.298s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.001s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.003s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:31,0.003s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_name""), fullname)",Firefox 122.0,,,05-07-2024 21:24:31,05-07-2024 21:24:32,0.564s,PASSED
+"println(""The fullname should be filled"")",Firefox 122.0,,,05-07-2024 21:24:32,05-07-2024 21:24:32,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_email""), email)",Firefox 122.0,,,05-07-2024 21:24:32,05-07-2024 21:24:33,0.574s,PASSED
+"println(""The email should be filled"")",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation""), confirmpassword)",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.279s,PASSED
+"println(""The confirm password should be filled"")",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.002s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn""))",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.502s,PASSED
+"println(""The login button should be clickable"")",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.002s,PASSED
+ActualInvalidPasswordPage = getUrl(),Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.010s,PASSED
+"ExpectedInvalidPasswordPage = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.001s,PASSED
+"verifyMatch(ActualInvalidPasswordPage, ExpectedInvalidPasswordPage, false)",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:33,0.004s,PASSED
+"takeScreenshot(""C:\Taskbuddy\InvalidPassword.png"")",Firefox 122.0,,,05-07-2024 21:24:33,05-07-2024 21:24:34,0.619s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:24:34,05-07-2024 21:24:35,1.286s,PASSED
+,,,,,,,
+Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password,Firefox 122.0,,,05-07-2024 21:24:35,05-07-2024 21:24:54,18.307s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:24:35,05-07-2024 21:24:39,3.713s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:24:39,05-07-2024 21:24:44,4.105s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:24:44,05-07-2024 21:24:44,0.029s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:24:44,05-07-2024 21:24:44,0.001s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:24:44,05-07-2024 21:24:44,0.003s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:24:44,05-07-2024 21:24:44,0.001s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:24:44,05-07-2024 21:24:48,4.208s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.016s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.001s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.003s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.001s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.293s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.001s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.003s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:48,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_name""), fullname)",Firefox 122.0,,,05-07-2024 21:24:48,05-07-2024 21:24:49,0.522s,PASSED
+"println(""The fullname should be filled"")",Firefox 122.0,,,05-07-2024 21:24:49,05-07-2024 21:24:49,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_email""), email)",Firefox 122.0,,,05-07-2024 21:24:49,05-07-2024 21:24:49,0.553s,PASSED
+"println(""The email should be filled"")",Firefox 122.0,,,05-07-2024 21:24:49,05-07-2024 21:24:49,0.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password""), password)",Firefox 122.0,,,05-07-2024 21:24:49,05-07-2024 21:24:49,0.270s,PASSED
+"println(""The password should be filled"")",Firefox 122.0,,,05-07-2024 21:24:49,05-07-2024 21:24:49,0.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation""), confirmpassword)",Firefox 122.0,,,05-07-2024 21:24:49,05-07-2024 21:24:50,0.296s,PASSED
+"println(""The confirm password should be filled"")",Firefox 122.0,,,05-07-2024 21:24:50,05-07-2024 21:24:50,0.001s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn""))",Firefox 122.0,,,05-07-2024 21:24:50,05-07-2024 21:24:51,1.060s,PASSED
+"println(""The login button should be clickable"")",Firefox 122.0,,,05-07-2024 21:24:51,05-07-2024 21:24:51,0.001s,PASSED
+"ActualErrorConfirmPass = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384""))",Firefox 122.0,,,05-07-2024 21:24:51,05-07-2024 21:24:51,0.511s,PASSED
+"ExpectedErrorConfirmPass = ""The password field confirmation does not match.""",Firefox 122.0,,,05-07-2024 21:24:51,05-07-2024 21:24:51,0.002s,PASSED
+"verifyMatch(ActualErrorConfirmPass, ExpectedErrorConfirmPass, false)",Firefox 122.0,,,05-07-2024 21:24:51,05-07-2024 21:24:51,0.005s,PASSED
+"takeScreenshot(""C:\Taskbuddy\InvalidConfirmPassword.png"")",Firefox 122.0,,,05-07-2024 21:24:51,05-07-2024 21:24:52,0.587s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:24:52,05-07-2024 21:24:54,1.750s,PASSED
+,,,,,,,
+Test Cases/Registration/TC005_Navigate to login page from registration form,Firefox 122.0,,,05-07-2024 21:24:54,05-07-2024 21:25:09,15.282s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:24:54,05-07-2024 21:24:57,3.808s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:24:58,05-07-2024 21:25:02,3.996s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:25:02,05-07-2024 21:25:02,0.033s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:25:02,05-07-2024 21:25:02,0.001s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:25:02,05-07-2024 21:25:02,0.003s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:25:02,05-07-2024 21:25:02,0.002s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:25:02,05-07-2024 21:25:06,4.136s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.010s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.002s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.005s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.002s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.252s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.001s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.004s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:06,0.001s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Log In""))",Firefox 122.0,,,05-07-2024 21:25:06,05-07-2024 21:25:07,0.730s,PASSED
+"println(""The login button is clickable"")",Firefox 122.0,,,05-07-2024 21:25:07,05-07-2024 21:25:07,0.003s,PASSED
+ActualLogin = getUrl(),Firefox 122.0,,,05-07-2024 21:25:07,05-07-2024 21:25:07,0.008s,PASSED
+"ExpectedLogin = ""https://task-buddy-d414881265e1.herokuapp.com/login""",Firefox 122.0,,,05-07-2024 21:25:07,05-07-2024 21:25:07,0.001s,PASSED
+"verifyMatch(ActualLogin, ExpectedLogin, false)",Firefox 122.0,,,05-07-2024 21:25:07,05-07-2024 21:25:07,0.009s,PASSED
+"takeScreenshot(""C:\Taskbuddy\LoginPage.png"")",Firefox 122.0,,,05-07-2024 21:25:07,05-07-2024 21:25:08,0.767s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:25:08,05-07-2024 21:25:09,1.312s,PASSED
+,,,,,,,
+Test Cases/Registration/TC006_Create a new account with empty full name,Firefox 122.0,,,05-07-2024 21:25:09,05-07-2024 21:25:24,15.465s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:25:09,05-07-2024 21:25:13,3.568s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:25:13,05-07-2024 21:25:17,4.399s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:25:17,05-07-2024 21:25:17,0.029s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:25:17,05-07-2024 21:25:17,0.001s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:25:17,05-07-2024 21:25:17,0.002s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:25:17,05-07-2024 21:25:17,0.001s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:25:17,05-07-2024 21:25:22,4.482s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.016s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.001s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.007s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.002s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.269s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.002s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.001s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.002s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn""))",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.509s,PASSED
+"println(""The login button should be clickable"")",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:22,0.001s,PASSED
+"takeScreenshot(""C:\Taskbuddy\EmptyData.png"")",Firefox 122.0,,,05-07-2024 21:25:22,05-07-2024 21:25:23,0.580s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:25:23,05-07-2024 21:25:24,1.400s,PASSED
+,,,,,,,
+Test Cases/Registration/TC007_Create a new account with empty data,Firefox 122.0,,,05-07-2024 21:25:24,05-07-2024 21:25:40,15.903s,PASSED
+Start listener action : BeforeTestCase,Firefox 122.0,,,05-07-2024 21:25:24,05-07-2024 21:25:28,3.789s,PASSED
+navigateToUrl(URL),Firefox 122.0,,,05-07-2024 21:25:28,05-07-2024 21:25:32,3.810s,PASSED
+ActualURL = getUrl(),Firefox 122.0,,,05-07-2024 21:25:32,05-07-2024 21:25:32,0.035s,PASSED
+"ExpectedURL = ""https://task-buddy-d414881265e1.herokuapp.com/""",Firefox 122.0,,,05-07-2024 21:25:32,05-07-2024 21:25:32,0.001s,PASSED
+"verifyMatch(ActualURL, ExpectedURL, false)",Firefox 122.0,,,05-07-2024 21:25:32,05-07-2024 21:25:32,0.005s,PASSED
+"println(""The website is accessible"")",Firefox 122.0,,,05-07-2024 21:25:32,05-07-2024 21:25:32,0.002s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/a_Register""))",Firefox 122.0,,,05-07-2024 21:25:32,05-07-2024 21:25:36,3.882s,PASSED
+ActualRegisterUrl = getUrl(),Firefox 122.0,,,05-07-2024 21:25:36,05-07-2024 21:25:36,0.007s,PASSED
+"ExpectedRegisterUrl = ""https://task-buddy-d414881265e1.herokuapp.com/register""",Firefox 122.0,,,05-07-2024 21:25:36,05-07-2024 21:25:36,0.004s,PASSED
+"verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false)",Firefox 122.0,,,05-07-2024 21:25:36,05-07-2024 21:25:36,0.004s,PASSED
+"println(""The url is correct"")",Firefox 122.0,,,05-07-2024 21:25:36,05-07-2024 21:25:36,0.001s,PASSED
+"ActualRegisterTitle = getText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/strong_Register_Title""))",Firefox 122.0,,,05-07-2024 21:25:36,05-07-2024 21:25:37,0.379s,PASSED
+"ExpectedRegisterTitle = ""Register""",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.001s,PASSED
+"verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false)",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.003s,PASSED
+"println(""The title is Register"")",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_email""), email)",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.579s,PASSED
+"println(""The email should be filled"")",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password""), password)",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.269s,PASSED
+"println(""The password should be filled"")",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:37,0.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation""), confirmpassword)",Firefox 122.0,,,05-07-2024 21:25:37,05-07-2024 21:25:38,0.267s,PASSED
+"println(""The confirm password should be filled"")",Firefox 122.0,,,05-07-2024 21:25:38,05-07-2024 21:25:38,0.001s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn""))",Firefox 122.0,,,05-07-2024 21:25:38,05-07-2024 21:25:38,0.511s,PASSED
+"println(""The login button should be clickable"")",Firefox 122.0,,,05-07-2024 21:25:38,05-07-2024 21:25:38,0.000s,PASSED
+"takeScreenshot(""C:\Taskbuddy\InvalidFullName.png"")",Firefox 122.0,,,05-07-2024 21:25:38,05-07-2024 21:25:39,0.673s,PASSED
+Start listener action : AfterTestCase,Firefox 122.0,,,05-07-2024 21:25:39,05-07-2024 21:25:40,1.481s,PASSED

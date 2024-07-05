@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_Navigate to login page from registration form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94edbee4-95f0-47e8-a77f-f9b018c03261</testCaseGuid>
+</TestCaseEntity>

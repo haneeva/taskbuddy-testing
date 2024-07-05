@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Create a new account with invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5eaefc24-05e1-4ffa-9e91-a11c5db1d79d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3eb2d53c-aaae-40fa-b46f-c9139062f052</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c744f42-0bba-4c60-b810-1683e4cbfe02</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ba2fb22-fb53-4668-8ecd-d076bbfde8f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e13dff1e-7263-4007-a3c3-e5d9b12bfd80</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wang Fang'</defaultValue>
+      <description></description>
+      <id>3eb2d53c-aaae-40fa-b46f-c9139062f052</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+   <variable>
+      <defaultValue>'wang'</defaultValue>
+      <description></description>
+      <id>5c744f42-0bba-4c60-b810-1683e4cbfe02</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'wNodeYW9pq6nLRMlcvSa2A=='</defaultValue>
+      <description></description>
+      <id>4ba2fb22-fb53-4668-8ecd-d076bbfde8f5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'wNodeYW9pq6nLRMlcvSa2A=='</defaultValue>
+      <description></description>
+      <id>e13dff1e-7263-4007-a3c3-e5d9b12bfd80</id>
+      <masked>false</masked>
+      <name>confirmpassword</name>
+   </variable>
+</TestCaseEntity>

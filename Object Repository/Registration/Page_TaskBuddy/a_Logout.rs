@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Logout</name>
+   <tag></tag>
+   <elementGuidId>2c0485df-da66-4259-b568-4770bf848358</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;event.preventDefault(); document.getElementById('logout-form').submit();&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4111db76-4d6a-4132-a9a9-6489fe22ef06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link text-primary fs-0</value>
+      <webElementGuid>6f83ebe0-b54c-42b0-88d5-7a28f77b5b40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://task-buddy-d414881265e1.herokuapp.com/logout</value>
+      <webElementGuid>fa761d3d-eb6d-40f3-a3df-e5d8731bb3ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>event.preventDefault(); document.getElementById('logout-form').submit();</value>
+      <webElementGuid>a0cc55b0-c035-49da-9622-479cb1c2a86e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Logout </value>
+      <webElementGuid>342b22bb-075b-475a-ae2a-9a01a1e7292e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top&quot;)/div[@class=&quot;container&quot;]/nav[@class=&quot;navbar navbar-light navbar-glass navbar-top navbar-expand-lg&quot;]/ul[@class=&quot;navbar-nav navbar-nav-icons ms-auto flex-row align-items-center&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link text-primary fs-0&quot;]</value>
+      <webElementGuid>ff28bd1f-abb7-431e-9407-1f9ac4c114dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;event.preventDefault(); document.getElementById('logout-form').submit();&quot;]</value>
+      <webElementGuid>642319ce-1016-4b31-aad8-0f9468f65489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='top']/div/nav/ul/li[3]/a</value>
+      <webElementGuid>bb0a8684-14e8-4ea1-a744-5fd04c21c367</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Logout')]</value>
+      <webElementGuid>4c5688b2-183d-4f26-9b97-0bb0678830c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hanifah'])[1]/following::a[2]</value>
+      <webElementGuid>19e08816-30d5-4867-987e-dca414eda523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bug'])[1]/following::a[3]</value>
+      <webElementGuid>b3b52b83-7409-4c12-9992-3f53dcc047aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Task Management System'])[1]/preceding::a[1]</value>
+      <webElementGuid>0bb99880-b2bf-40c2-b746-c8d9daa8c961</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>5db33208-f1cc-4cc0-b0e2-a6a0232a633a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://task-buddy-d414881265e1.herokuapp.com/logout')]</value>
+      <webElementGuid>e4e9da5c-8b5a-477b-a34c-f2678211df7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>f5d3bfae-c8da-4fbc-82fb-d37d109f8d2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://task-buddy-d414881265e1.herokuapp.com/logout' and (text() = ' Logout ' or . = ' Logout ')]</value>
+      <webElementGuid>daf57a88-f21e-4169-80fc-71bb7908a766</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

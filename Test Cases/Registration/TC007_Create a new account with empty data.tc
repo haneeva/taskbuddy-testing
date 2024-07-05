@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_Create a new account with empty data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a950dd5d-8e28-43b3-9ab4-519252351b45</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b74aa11-78a4-4439-83fe-80361a641809</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a756fe42-da1a-4865-92e2-2b862cf99dc0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56b179bc-8cd3-4f06-8741-0d785fcb69ea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'wang'</defaultValue>
+      <description></description>
+      <id>2b74aa11-78a4-4439-83fe-80361a641809</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'wNodeYW9pq6nLRMlcvSa2A=='</defaultValue>
+      <description></description>
+      <id>a756fe42-da1a-4865-92e2-2b862cf99dc0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'wNodeYW9pq6nLRMlcvSa2A=='</defaultValue>
+      <description></description>
+      <id>56b179bc-8cd3-4f06-8741-0d785fcb69ea</id>
+      <masked>false</masked>
+      <name>confirmpassword</name>
+   </variable>
+</TestCaseEntity>

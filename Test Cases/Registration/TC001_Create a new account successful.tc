@@ -31,14 +31,14 @@
       <variableId>a6e104ac-6142-4e8f-ac7a-6ae805dfdec7</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Anidela'</defaultValue>
+      <defaultValue>'Saraya'</defaultValue>
       <description></description>
       <id>46564c10-147c-414c-816e-1e2fb760cfa3</id>
       <masked>false</masked>
       <name>fullname</name>
    </variable>
    <variable>
-      <defaultValue>'anidela@yopmail.com'</defaultValue>
+      <defaultValue>'saraya@yopmail.com'</defaultValue>
       <description></description>
       <id>0e6250b7-2806-451a-af65-783a7d2bb33c</id>
       <masked>false</masked>

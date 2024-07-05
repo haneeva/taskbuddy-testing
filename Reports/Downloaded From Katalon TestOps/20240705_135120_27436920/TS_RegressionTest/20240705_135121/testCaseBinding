@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Registration/TC001_Create a new account successful","testCaseId":"Test Cases/Registration/TC001_Create a new account successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC002_Create a new account with invalid email","testCaseId":"Test Cases/Registration/TC002_Create a new account with invalid email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC003_Create a new account with invalid password","testCaseId":"Test Cases/Registration/TC003_Create a new account with invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password","testCaseId":"Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC005_Navigate to login page from registration form","testCaseId":"Test Cases/Registration/TC005_Navigate to login page from registration form","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC006_Create a new account with empty full name","testCaseId":"Test Cases/Registration/TC006_Create a new account with empty full name","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC007_Create a new account with empty data","testCaseId":"Test Cases/Registration/TC007_Create a new account with empty data","iterationVariableName":""}

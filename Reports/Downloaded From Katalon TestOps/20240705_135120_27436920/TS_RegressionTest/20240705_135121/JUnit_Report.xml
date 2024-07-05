@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="85.885" tests="7" failures="1" errors="0">
+   <testsuite name="TS_RegressionTest" tests="7" failures="1" errors="0" time="85.885" skipped="0" timestamp="05-07-2024T13:51:26" hostname="runneradmin - fv-az1347-190.z0wpr2k0mpmu5f01gp5harpn5e.bx.internal.cloudapp.net" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\a\\taskbuddy-testing\\taskbuddy-testing\\Reports\\20240705_135120\\TS_RegressionTest\\20240705_135121"/>
+         <property name="logFiles" value="D:\\a\\taskbuddy-testing\\taskbuddy-testing\\Reports\\20240705_135120\\TS_RegressionTest\\20240705_135121\\execution0.log"/>
+         <property name="attachments" value="C:\Taskbuddy\InvalidEmail.png, C:\Taskbuddy\InvalidPassword.png, C:\Taskbuddy\InvalidConfirmPassword.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\EmptyData.png, C:\Taskbuddy\InvalidFullName.png"/>
+         <property name="hostName" value="runneradmin - fv-az1347-190.z0wpr2k0mpmu5f01gp5harpn5e.bx.internal.cloudapp.net"/>
+         <property name="os" value="Windows Server 2022 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Firefox 127.0"/>
+         <property name="hostAddress" value="10.1.0.15"/>
+         <property name="sessionId" value="314b1800-30d4-4770-83c6-b7565a671c37"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2022"/>
+      </properties>
+      <testcase name="Test Cases/Registration/TC001_Create a new account successful" time="36.06" classname="Test Cases/Registration/TC001_Create a new account successful" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Registration/TC001_Create a new account successful FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[05-07-2024T13:51:27 - [TEST_CASE][FAILED] - Test Cases/Registration/TC001_Create a new account successful: Test Cases/Registration/TC001_Create a new account successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-07-2024T13:51:27 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:51:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:51:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:51:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:51:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:51:49 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:51:49 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:51:50 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:51:50 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:51:50 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:51:50 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:51:50 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:51:50 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:51:50 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:51:54 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:51:55 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:51:55 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:51:55 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:51:55 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:51:55 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:51:55 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:51:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:51:58 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:51:58 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:51:58 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:51:58 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:51:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Anidela' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:00 - [MESSAGE][PASSED] - Text 'Anidela' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:00 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+05-07-2024T13:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'anidela@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:01 - [MESSAGE][PASSED] - Text 'anidela@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:01 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+05-07-2024T13:52:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:01 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+05-07-2024T13:52:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:01 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+05-07-2024T13:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:02 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+05-07-2024T13:52:02 - [TEST_STEP][PASSED] - ActualLoginPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:02 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:02 - [TEST_STEP][PASSED] - ExpectedLoginPage = "https://task-buddy-d414881265e1.herokuapp.com/dashboard": null
+
+05-07-2024T13:52:02 - [TEST_STEP][FAILED] - verifyMatch(ActualLoginPage, ExpectedLoginPage, false): Unable to verify match between actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+05-07-2024T13:52:02 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+05-07-2024T13:52:02 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:03 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:03 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[05-07-2024T13:51:27 - [TEST_CASE][FAILED] - Test Cases/Registration/TC001_Create a new account successful: Test Cases/Registration/TC001_Create a new account successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC002_Create a new account with invalid email" time="8.671" classname="Test Cases/Registration/TC002_Create a new account with invalid email" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:52:03 - [TEST_CASE][PASSED] - Test Cases/Registration/TC002_Create a new account with invalid email: Test Cases/Registration/TC002_Create a new account with invalid email
+
+05-07-2024T13:52:03 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:52:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:52:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:52:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:52:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:05 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:05 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:05 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:52:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:08 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:08 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:08 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:09 - [MESSAGE][PASSED] - Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:09 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+05-07-2024T13:52:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:09 - [MESSAGE][PASSED] - Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:09 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+05-07-2024T13:52:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:09 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+05-07-2024T13:52:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - ActualInvalidEmailPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:10 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - ExpectedInvalidEmailPage = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - verifyMatch(ActualInvalidEmailPage, ExpectedInvalidEmailPage, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:10 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidEmail.png"): Taking screenshot successfully
+
+05-07-2024T13:52:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidEmail.png]]
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:11 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:11 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC003_Create a new account with invalid password" time="8.139" classname="Test Cases/Registration/TC003_Create a new account with invalid password" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:52:11 - [TEST_CASE][PASSED] - Test Cases/Registration/TC003_Create a new account with invalid password: Test Cases/Registration/TC003_Create a new account with invalid password
+
+05-07-2024T13:52:11 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:52:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:52:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:52:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:52:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:52:13 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:52:13 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:14 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:14 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:14 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:14 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:52:14 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:14 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:14 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:16 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:16 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:16 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:16 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:16 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:16 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:52:16 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:17 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:52:17 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:17 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:17 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:17 - [MESSAGE][PASSED] - Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:17 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+05-07-2024T13:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wang@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:18 - [MESSAGE][PASSED] - Text 'wang@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - ActualInvalidPasswordPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:18 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - ExpectedInvalidPasswordPage = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - verifyMatch(ActualInvalidPasswordPage, ExpectedInvalidPasswordPage, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:18 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:18 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidPassword.png"): Taking screenshot successfully
+
+05-07-2024T13:52:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidPassword.png]]
+
+05-07-2024T13:52:19 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:19 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:19 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password" time="8.592" classname="Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:52:19 - [TEST_CASE][PASSED] - Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password: Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password
+
+05-07-2024T13:52:20 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:52:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:52:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:52:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:52:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:52:21 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:52:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:22 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:22 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:22 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:22 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:52:22 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:22 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:22 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:52:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:24 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:24 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:24 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:24 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:24 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:24 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:52:24 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:25 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:52:25 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:25 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:25 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:25 - [MESSAGE][PASSED] - Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+05-07-2024T13:52:25 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+05-07-2024T13:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wangnew@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:26 - [MESSAGE][PASSED] - Text 'wangnew@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+05-07-2024T13:52:26 - [TEST_STEP][PASSED] - ActualErrorConfirmPass = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384' is: 'The password field confirmation does not match.'
+
+05-07-2024T13:52:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384' is: 'The password field confirmation does not match.'
+
+05-07-2024T13:52:27 - [TEST_STEP][PASSED] - ExpectedErrorConfirmPass = "The password field confirmation does not match.": null
+
+05-07-2024T13:52:27 - [TEST_STEP][PASSED] - verifyMatch(ActualErrorConfirmPass, ExpectedErrorConfirmPass, false): Actual text 'The password field confirmation does not match.' and expected text 'The password field confirmation does not match.' are matched 
+
+05-07-2024T13:52:27 - [MESSAGE][PASSED] - Actual text 'The password field confirmation does not match.' and expected text 'The password field confirmation does not match.' are matched 
+
+05-07-2024T13:52:27 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidConfirmPassword.png"): Taking screenshot successfully
+
+05-07-2024T13:52:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidConfirmPassword.png]]
+
+05-07-2024T13:52:27 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:28 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:28 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC005_Navigate to login page from registration form" time="9.47" classname="Test Cases/Registration/TC005_Navigate to login page from registration form" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:52:28 - [TEST_CASE][PASSED] - Test Cases/Registration/TC005_Navigate to login page from registration form: Test Cases/Registration/TC005_Navigate to login page from registration form
+
+05-07-2024T13:52:28 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:52:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:52:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:52:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:52:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:30 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:30 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:30 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:52:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:35 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:35 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:35 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:35 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:35 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:35 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:52:35 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:36 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Log In")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Log In' is clicked on
+
+05-07-2024T13:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Log In' is clicked on
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - println("The login button is clickable"): null
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - ActualLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+05-07-2024T13:52:36 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - ExpectedLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - verifyMatch(ActualLogin, ExpectedLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+05-07-2024T13:52:36 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+05-07-2024T13:52:36 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+05-07-2024T13:52:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+05-07-2024T13:52:37 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:38 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:38 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC006_Create a new account with empty full name" time="7.014" classname="Test Cases/Registration/TC006_Create a new account with empty full name" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:52:38 - [TEST_CASE][PASSED] - Test Cases/Registration/TC006_Create a new account with empty full name: Test Cases/Registration/TC006_Create a new account with empty full name
+
+05-07-2024T13:52:38 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:52:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:52:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:52:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:52:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:52:39 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:52:39 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:40 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:40 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:40 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:40 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:52:40 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:40 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:40 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:42 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:42 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:42 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:42 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:42 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:42 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:52:42 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:43 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:52:43 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:43 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:43 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:43 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+05-07-2024T13:52:43 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\EmptyData.png"): Taking screenshot successfully
+
+05-07-2024T13:52:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\EmptyData.png]]
+
+05-07-2024T13:52:44 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:45 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:45 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC007_Create a new account with empty data" time="7.674" classname="Test Cases/Registration/TC007_Create a new account with empty data" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:52:45 - [TEST_CASE][PASSED] - Test Cases/Registration/TC007_Create a new account with empty data: Test Cases/Registration/TC007_Create a new account with empty data
+
+05-07-2024T13:52:45 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+05-07-2024T13:52:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:52:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+05-07-2024T13:52:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:52:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:52:46 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+05-07-2024T13:52:47 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:47 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+05-07-2024T13:52:47 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:47 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+05-07-2024T13:52:47 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+05-07-2024T13:52:47 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:47 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+05-07-2024T13:52:47 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+05-07-2024T13:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+05-07-2024T13:52:49 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:49 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+05-07-2024T13:52:49 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+05-07-2024T13:52:49 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:49 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+05-07-2024T13:52:49 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+05-07-2024T13:52:49 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:50 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:50 - [MESSAGE][PASSED] - Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+05-07-2024T13:52:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+05-07-2024T13:52:51 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+05-07-2024T13:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+05-07-2024T13:52:51 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+05-07-2024T13:52:51 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidFullName.png"): Taking screenshot successfully
+
+05-07-2024T13:52:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidFullName.png]]
+
+05-07-2024T13:52:51 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+05-07-2024T13:52:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T13:52:52 - [MESSAGE][PASSED] - Browser is closed
+
+05-07-2024T13:52:52 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T13:51:26 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/Registration/TC001_Create a new account successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[05-07-2024T13:51:26 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/Registration/TC001_Create a new account successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC001_Create a new account successful.run(TC001_Create a new account successful:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1720187481821.run(TempTestSuite1720187481821.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="212.938" tests="12" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="12" failures="0" errors="0" time="212.938" skipped="0" timestamp="08-07-2024T15:30:59" hostname="lapto - LAPTOP-O9C2SCC5" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lapto\\git\\taskbuddy-testing\\Reports\\20240708_153051\\TS_RegressionTest\\20240708_153051"/>
+         <property name="logFiles" value="C:\\Users\\lapto\\git\\taskbuddy-testing\\Reports\\20240708_153051\\TS_RegressionTest\\20240708_153051\\execution0.log"/>
+         <property name="attachments" value="C:\Taskbuddy\Dashboard.png, C:\Taskbuddy\InvalidEmail.png, C:\Taskbuddy\InvalidPassword.png, C:\Taskbuddy\InvalidConfirmPassword.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\EmptyData.png, C:\Taskbuddy\InvalidFullName.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\ErrorInvalidEmail.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\ErrorInvalidPassword.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\ErrorEmptyData.png, C:\Taskbuddy\LoginPage.png, C:\Taskbuddy\RegisterPage2.png"/>
+         <property name="hostName" value="lapto - LAPTOP-O9C2SCC5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Firefox 122.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="a5ab7c58-ca05-496f-bdf8-f7512eff1996"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Registration/TC001_Create a new account successful" time="22.198" classname="Test Cases/Registration/TC001_Create a new account successful" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:31:00 - [TEST_CASE][PASSED] - Test Cases/Registration/TC001_Create a new account successful: Test Cases/Registration/TC001_Create a new account successful
+
+08-07-2024T15:31:00 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:31:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:31:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:31:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:31:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:31:05 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:31:06 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:31:10 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:31:10 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:31:10 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:31:10 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:31:10 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:31:11 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:31:11 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:15 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:15 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:31:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:31:15 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:31:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'nova' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:31:16 - [MESSAGE][PASSED] - Text 'nova' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:31:16 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+08-07-2024T15:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'nova@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:31:17 - [MESSAGE][PASSED] - Text 'nova@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:31:17 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+08-07-2024T15:31:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:31:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:31:17 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+08-07-2024T15:31:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:31:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:31:18 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+08-07-2024T15:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - ActualLoginPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/dashboard'
+
+08-07-2024T15:31:20 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/dashboard'
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - ExpectedLoginPage = "https://task-buddy-d414881265e1.herokuapp.com/dashboard": null
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - verifyMatch(ActualLoginPage, ExpectedLoginPage, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are matched 
+
+08-07-2024T15:31:20 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are matched 
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - ActualDashboardPage = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_taskbuddy_title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_taskbuddy_title' is: 'Task Buddy'
+
+08-07-2024T15:31:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_taskbuddy_title' is: 'Task Buddy'
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - ExpectedDashboardPage = "Task Buddy": null
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - verifyMatch(ActualDashboardPage, ExpectedDashboardPage, false): Actual text 'Task Buddy' and expected text 'Task Buddy' are matched 
+
+08-07-2024T15:31:20 - [MESSAGE][PASSED] - Actual text 'Task Buddy' and expected text 'Task Buddy' are matched 
+
+08-07-2024T15:31:20 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\Dashboard.png"): Taking screenshot successfully
+
+08-07-2024T15:31:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\Dashboard.png]]
+
+08-07-2024T15:31:21 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:31:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:31:22 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:31:22 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC002_Create a new account with invalid email" time="17.569" classname="Test Cases/Registration/TC002_Create a new account with invalid email" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:31:22 - [TEST_CASE][PASSED] - Test Cases/Registration/TC002_Create a new account with invalid email: Test Cases/Registration/TC002_Create a new account with invalid email
+
+08-07-2024T15:31:22 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:31:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:31:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:31:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:31:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:31:27 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:31:27 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:31:31 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:31:31 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:31:31 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:31:31 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:31:31 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:31:31 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:31:31 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:35 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:35 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:31:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:31:35 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:31:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:31:36 - [MESSAGE][PASSED] - Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:31:36 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+08-07-2024T15:31:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:31:36 - [MESSAGE][PASSED] - Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:31:36 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+08-07-2024T15:31:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:31:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:31:37 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+08-07-2024T15:31:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:31:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:31:37 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+08-07-2024T15:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:31:37 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+08-07-2024T15:31:37 - [TEST_STEP][PASSED] - ActualInvalidEmailPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:38 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:38 - [TEST_STEP][PASSED] - ExpectedInvalidEmailPage = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:31:38 - [TEST_STEP][PASSED] - verifyMatch(ActualInvalidEmailPage, ExpectedInvalidEmailPage, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:38 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:38 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidEmail.png"): Taking screenshot successfully
+
+08-07-2024T15:31:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidEmail.png]]
+
+08-07-2024T15:31:38 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:31:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:31:39 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:31:39 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC003_Create a new account with invalid password" time="16.778" classname="Test Cases/Registration/TC003_Create a new account with invalid password" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:31:39 - [TEST_CASE][PASSED] - Test Cases/Registration/TC003_Create a new account with invalid password: Test Cases/Registration/TC003_Create a new account with invalid password
+
+08-07-2024T15:31:40 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:31:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:31:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:31:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:31:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:31:43 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:31:43 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:31:47 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:31:47 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:31:47 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:31:47 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:31:47 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:31:47 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:31:47 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:52 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:52 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:31:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:31:52 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:31:52 - [MESSAGE][PASSED] - Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+08-07-2024T15:31:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wang@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:31:53 - [MESSAGE][PASSED] - Text 'wang@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:31:53 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+08-07-2024T15:31:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:31:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:31:53 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+08-07-2024T15:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:31:54 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+08-07-2024T15:31:54 - [TEST_STEP][PASSED] - ActualInvalidPasswordPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:54 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:31:54 - [TEST_STEP][PASSED] - ExpectedInvalidPasswordPage = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:31:54 - [TEST_STEP][PASSED] - verifyMatch(ActualInvalidPasswordPage, ExpectedInvalidPasswordPage, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:54 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:31:54 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidPassword.png"): Taking screenshot successfully
+
+08-07-2024T15:31:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidPassword.png]]
+
+08-07-2024T15:31:55 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:31:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:31:56 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:31:56 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password" time="18.733" classname="Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:31:56 - [TEST_CASE][PASSED] - Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password: Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password
+
+08-07-2024T15:31:56 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:31:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:31:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:31:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:32:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:32:00 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:32:01 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:05 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:05 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:05 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:05 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:32:05 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:05 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:05 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:09 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:09 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:09 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:32:09 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:09 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:09 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:32:09 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:10 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:32:10 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:10 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:10 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_name"), fullname): Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:32:10 - [MESSAGE][PASSED] - Text 'Wang Fang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_name'
+
+08-07-2024T15:32:10 - [TEST_STEP][PASSED] - println("The fullname should be filled"): null
+
+08-07-2024T15:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wangnew@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:32:11 - [MESSAGE][PASSED] - Text 'wangnew@yopmail.com' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:32:11 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+08-07-2024T15:32:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:32:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:32:11 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+08-07-2024T15:32:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:32:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:32:11 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+08-07-2024T15:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:32:13 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+08-07-2024T15:32:13 - [TEST_STEP][PASSED] - ActualErrorConfirmPass = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384' is: 'The password field confirmation does not match.'
+
+08-07-2024T15:32:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_The password field confirmation does_0e0384' is: 'The password field confirmation does not match.'
+
+08-07-2024T15:32:13 - [TEST_STEP][PASSED] - ExpectedErrorConfirmPass = "The password field confirmation does not match.": null
+
+08-07-2024T15:32:13 - [TEST_STEP][PASSED] - verifyMatch(ActualErrorConfirmPass, ExpectedErrorConfirmPass, false): Actual text 'The password field confirmation does not match.' and expected text 'The password field confirmation does not match.' are matched 
+
+08-07-2024T15:32:13 - [MESSAGE][PASSED] - Actual text 'The password field confirmation does not match.' and expected text 'The password field confirmation does not match.' are matched 
+
+08-07-2024T15:32:13 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidConfirmPassword.png"): Taking screenshot successfully
+
+08-07-2024T15:32:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidConfirmPassword.png]]
+
+08-07-2024T15:32:14 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:32:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:32:15 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:32:15 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC005_Navigate to login page from registration form" time="15.792" classname="Test Cases/Registration/TC005_Navigate to login page from registration form" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:32:15 - [TEST_CASE][PASSED] - Test Cases/Registration/TC005_Navigate to login page from registration form: Test Cases/Registration/TC005_Navigate to login page from registration form
+
+08-07-2024T15:32:15 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:32:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:32:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:32:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:32:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:32:19 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:32:19 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:23 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:23 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:23 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:23 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:32:23 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:23 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:23 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:28 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:28 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:28 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:32:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Log In")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Log In' is clicked on
+
+08-07-2024T15:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Log In' is clicked on
+
+08-07-2024T15:32:29 - [TEST_STEP][PASSED] - println("The login button is clickable"): null
+
+08-07-2024T15:32:29 - [TEST_STEP][PASSED] - ActualLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:32:29 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:32:29 - [TEST_STEP][PASSED] - ExpectedLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:32:29 - [TEST_STEP][PASSED] - verifyMatch(ActualLogin, ExpectedLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:32:29 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:32:29 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+08-07-2024T15:32:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+08-07-2024T15:32:30 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:32:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:32:31 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:32:31 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC006_Create a new account with empty full name" time="15.59" classname="Test Cases/Registration/TC006_Create a new account with empty full name" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:32:31 - [TEST_CASE][PASSED] - Test Cases/Registration/TC006_Create a new account with empty full name: Test Cases/Registration/TC006_Create a new account with empty full name
+
+08-07-2024T15:32:31 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:32:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:32:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:32:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:32:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:32:35 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:32:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:39 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:39 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:39 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:39 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:32:39 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:39 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:39 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:44 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:44 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:44 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:32:45 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+08-07-2024T15:32:45 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\EmptyData.png"): Taking screenshot successfully
+
+08-07-2024T15:32:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\EmptyData.png]]
+
+08-07-2024T15:32:46 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:32:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:32:46 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:32:46 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/TC007_Create a new account with empty data" time="16.193" classname="Test Cases/Registration/TC007_Create a new account with empty data" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:32:46 - [TEST_CASE][PASSED] - Test Cases/Registration/TC007_Create a new account with empty data: Test Cases/Registration/TC007_Create a new account with empty data
+
+08-07-2024T15:32:46 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:32:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:32:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:32:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:32:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:32:50 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:32:50 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:54 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:32:54 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:54 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:32:54 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:32:54 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:54 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:32:54 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - ActualRegisterUrl = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:59 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - ExpectedRegisterUrl = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterUrl, ExpectedRegisterUrl, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:59 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - println("The url is correct"): null
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - ActualRegisterTitle = getText(findTestObject("Object Repository/Registration/Page_TaskBuddy/strong_Register_Title")): Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_TaskBuddy/strong_Register_Title' is: 'Register'
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - ExpectedRegisterTitle = "Register": null
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterTitle, ExpectedRegisterTitle, false): Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:59 - [MESSAGE][PASSED] - Actual text 'Register' and expected text 'Register' are matched 
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - println("The title is Register"): null
+
+08-07-2024T15:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_email"), email): Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:33:00 - [MESSAGE][PASSED] - Text 'wang' is set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_email'
+
+08-07-2024T15:33:00 - [TEST_STEP][PASSED] - println("The email should be filled"): null
+
+08-07-2024T15:33:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password"), password): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:33:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password'
+
+08-07-2024T15:33:00 - [TEST_STEP][PASSED] - println("The password should be filled"): null
+
+08-07-2024T15:33:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation"), confirmpassword): Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:33:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_TaskBuddy/input_Register_password_confirmation'
+
+08-07-2024T15:33:00 - [TEST_STEP][PASSED] - println("The confirm password should be filled"): null
+
+08-07-2024T15:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn")): Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_TaskBuddy/input_Register_btn login_btn' is clicked on
+
+08-07-2024T15:33:01 - [TEST_STEP][PASSED] - println("The login button should be clickable"): null
+
+08-07-2024T15:33:01 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\InvalidFullName.png"): Taking screenshot successfully
+
+08-07-2024T15:33:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\InvalidFullName.png]]
+
+08-07-2024T15:33:01 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:33:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:33:03 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:33:03 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC008_Login successful" time="18.243" classname="Test Cases/Login/TC008_Login successful" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:33:03 - [TEST_CASE][PASSED] - Test Cases/Login/TC008_Login successful: Test Cases/Login/TC008_Login successful
+
+08-07-2024T15:33:03 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:33:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:33:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:33:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:33:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:33:07 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:33:07 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:33:11 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:33:11 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:33:11 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:33:11 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:33:11 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:33:11 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:33:11 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/a_Login")): Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:33:15 - [TEST_STEP][PASSED] - ActualUrlLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:33:15 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:33:15 - [TEST_STEP][PASSED] - ExpectedUrlLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:33:15 - [TEST_STEP][PASSED] - verifyMatch(ActualUrlLogin, ExpectedUrlLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:33:15 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:33:15 - [TEST_STEP][PASSED] - ActualTitleLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_Login_title")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:33:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:33:16 - [TEST_STEP][PASSED] - ExpectedTitleLogin = "Login": null
+
+08-07-2024T15:33:16 - [TEST_STEP][PASSED] - verifyMatch(ActualTitleLogin, ExpectedTitleLogin, false): Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:33:16 - [MESSAGE][PASSED] - Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:33:16 - [TEST_STEP][PASSED] - println("The Login page is displayed"): null
+
+08-07-2024T15:33:16 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+08-07-2024T15:33:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+08-07-2024T15:33:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Login_email"), username): Text 'hanifah@yopmail.com' is set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_email'
+
+08-07-2024T15:33:17 - [MESSAGE][PASSED] - Text 'hanifah@yopmail.com' is set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_email'
+
+08-07-2024T15:33:17 - [TEST_STEP][PASSED] - println("Username is filled"): null
+
+08-07-2024T15:33:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Login_password"), password): Text ****** has been set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_password'
+
+08-07-2024T15:33:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_password'
+
+08-07-2024T15:33:17 - [TEST_STEP][PASSED] - println("Password is filled"): null
+
+08-07-2024T15:33:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - println("Login button is clickable"): null
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - ActualLoginPageSuccess = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/dashboard'
+
+08-07-2024T15:33:20 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/dashboard'
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - ExpectedLoginPageSuccess = "https://task-buddy-d414881265e1.herokuapp.com/dashboard": null
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - verifyMatch(ActualLoginPageSuccess, ExpectedLoginPageSuccess, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are matched 
+
+08-07-2024T15:33:20 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/dashboard' are matched 
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - println("Login success and direct to Dashboard Page"): null
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:33:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:33:21 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:33:21 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC009_Login with invalid email address" time="18.514" classname="Test Cases/Login/TC009_Login with invalid email address" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:33:21 - [TEST_CASE][PASSED] - Test Cases/Login/TC009_Login with invalid email address: Test Cases/Login/TC009_Login with invalid email address
+
+08-07-2024T15:33:21 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:33:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:33:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:33:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:33:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:33:25 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:33:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:33:29 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:33:29 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:33:29 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:33:29 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:33:29 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:33:29 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:33:29 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/a_Login")): Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:33:33 - [TEST_STEP][PASSED] - ActualUrlLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:33:33 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:33:33 - [TEST_STEP][PASSED] - ExpectedUrlLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:33:33 - [TEST_STEP][PASSED] - verifyMatch(ActualUrlLogin, ExpectedUrlLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:33:33 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:33:33 - [TEST_STEP][PASSED] - ActualTitleLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_Login_title")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:33:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:33:34 - [TEST_STEP][PASSED] - ExpectedTitleLogin = "Login": null
+
+08-07-2024T15:33:34 - [TEST_STEP][PASSED] - verifyMatch(ActualTitleLogin, ExpectedTitleLogin, false): Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:33:34 - [MESSAGE][PASSED] - Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:33:34 - [TEST_STEP][PASSED] - println("The Login page is displayed"): null
+
+08-07-2024T15:33:34 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+08-07-2024T15:33:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+08-07-2024T15:33:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Login_email"), username): Text 'pinkan@yopmail.com' is set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_email'
+
+08-07-2024T15:33:35 - [MESSAGE][PASSED] - Text 'pinkan@yopmail.com' is set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_email'
+
+08-07-2024T15:33:35 - [TEST_STEP][PASSED] - println("Username is filled"): null
+
+08-07-2024T15:33:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Login_password"), password): Text ****** has been set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_password'
+
+08-07-2024T15:33:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_password'
+
+08-07-2024T15:33:35 - [TEST_STEP][PASSED] - println("Password is filled"): null
+
+08-07-2024T15:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:33:37 - [TEST_STEP][PASSED] - println("Login button is clickable"): null
+
+08-07-2024T15:33:37 - [TEST_STEP][PASSED] - ActualErrorLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_These credentials do not match our records")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_These credentials do not match our records' is: 'These credentials do not match our records.'
+
+08-07-2024T15:33:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_These credentials do not match our records' is: 'These credentials do not match our records.'
+
+08-07-2024T15:33:38 - [TEST_STEP][PASSED] - ExpectedErrorLogin = "These credentials do not match our records.": null
+
+08-07-2024T15:33:38 - [TEST_STEP][PASSED] - verifyMatch(ActualErrorLogin, ExpectedErrorLogin, false): Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+08-07-2024T15:33:38 - [MESSAGE][PASSED] - Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+08-07-2024T15:33:38 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\ErrorInvalidEmail.png"): Taking screenshot successfully
+
+08-07-2024T15:33:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\ErrorInvalidEmail.png]]
+
+08-07-2024T15:33:38 - [TEST_STEP][PASSED] - println("Login Unsuccessful"): null
+
+08-07-2024T15:33:38 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:33:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:33:39 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:33:39 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC010_Login with invalid password" time="19.09" classname="Test Cases/Login/TC010_Login with invalid password" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:33:39 - [TEST_CASE][PASSED] - Test Cases/Login/TC010_Login with invalid password: Test Cases/Login/TC010_Login with invalid password
+
+08-07-2024T15:33:39 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:33:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:33:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:33:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:33:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:33:44 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:33:44 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:33:48 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:33:48 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:33:48 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:33:48 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:33:48 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:33:48 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:33:48 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/a_Login")): Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:33:52 - [TEST_STEP][PASSED] - ActualUrlLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:33:52 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:33:52 - [TEST_STEP][PASSED] - ExpectedUrlLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:33:52 - [TEST_STEP][PASSED] - verifyMatch(ActualUrlLogin, ExpectedUrlLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:33:52 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:33:52 - [TEST_STEP][PASSED] - ActualTitleLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_Login_title")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:33:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:33:53 - [TEST_STEP][PASSED] - ExpectedTitleLogin = "Login": null
+
+08-07-2024T15:33:53 - [TEST_STEP][PASSED] - verifyMatch(ActualTitleLogin, ExpectedTitleLogin, false): Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:33:53 - [MESSAGE][PASSED] - Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:33:53 - [TEST_STEP][PASSED] - println("The Login page is displayed"): null
+
+08-07-2024T15:33:53 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+08-07-2024T15:33:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+08-07-2024T15:33:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Login_email"), username): Text 'hanifah@yopmail.com' is set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_email'
+
+08-07-2024T15:33:54 - [MESSAGE][PASSED] - Text 'hanifah@yopmail.com' is set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_email'
+
+08-07-2024T15:33:54 - [TEST_STEP][PASSED] - println("Username is filled"): null
+
+08-07-2024T15:33:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Login_password"), password): Text ****** has been set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_password'
+
+08-07-2024T15:33:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_TaskBuddy/input_Login_password'
+
+08-07-2024T15:33:54 - [TEST_STEP][PASSED] - println("Password is filled"): null
+
+08-07-2024T15:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:33:56 - [TEST_STEP][PASSED] - println("Login button is clickable"): null
+
+08-07-2024T15:33:56 - [TEST_STEP][PASSED] - ActualErrorLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_These credentials do not match our records")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_These credentials do not match our records' is: 'These credentials do not match our records.'
+
+08-07-2024T15:33:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_These credentials do not match our records' is: 'These credentials do not match our records.'
+
+08-07-2024T15:33:57 - [TEST_STEP][PASSED] - ExpectedErrorLogin = "These credentials do not match our records.": null
+
+08-07-2024T15:33:57 - [TEST_STEP][PASSED] - verifyMatch(ActualErrorLogin, ExpectedErrorLogin, false): Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+08-07-2024T15:33:57 - [MESSAGE][PASSED] - Actual text 'These credentials do not match our records.' and expected text 'These credentials do not match our records.' are matched 
+
+08-07-2024T15:33:57 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\ErrorInvalidPassword.png"): Taking screenshot successfully
+
+08-07-2024T15:33:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\ErrorInvalidPassword.png]]
+
+08-07-2024T15:33:57 - [TEST_STEP][PASSED] - println("Login Unsuccessful"): null
+
+08-07-2024T15:33:57 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:33:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:33:58 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:33:58 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC011_Login with empty data" time="16.457" classname="Test Cases/Login/TC011_Login with empty data" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:33:59 - [TEST_CASE][PASSED] - Test Cases/Login/TC011_Login with empty data: Test Cases/Login/TC011_Login with empty data
+
+08-07-2024T15:33:59 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:33:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:33:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:33:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:34:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:34:03 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:34:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:34:07 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:34:07 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:34:07 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:34:07 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:34:07 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:34:07 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:34:07 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/a_Login")): Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - ActualUrlLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:34:11 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - ExpectedUrlLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - verifyMatch(ActualUrlLogin, ExpectedUrlLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:34:11 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - ActualTitleLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_Login_title")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:34:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - ExpectedTitleLogin = "Login": null
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - verifyMatch(ActualTitleLogin, ExpectedTitleLogin, false): Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:34:11 - [MESSAGE][PASSED] - Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - println("The Login page is displayed"): null
+
+08-07-2024T15:34:11 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+08-07-2024T15:34:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+08-07-2024T15:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_remember' is clicked on
+
+08-07-2024T15:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn")): Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/input_Remember Me_btn login_btn' is clicked on
+
+08-07-2024T15:34:13 - [TEST_STEP][PASSED] - println("Login button is clickable"): null
+
+08-07-2024T15:34:13 - [TEST_STEP][PASSED] - ActualEmptyData = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:34:13 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:34:13 - [TEST_STEP][PASSED] - ExpectedEmptyData = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:34:13 - [TEST_STEP][PASSED] - verifyMatch(ActualEmptyData, ExpectedEmptyData, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:34:13 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:34:13 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\ErrorEmptyData.png"): Taking screenshot successfully
+
+08-07-2024T15:34:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\ErrorEmptyData.png]]
+
+08-07-2024T15:34:14 - [TEST_STEP][PASSED] - println("Login Unsuccessful"): null
+
+08-07-2024T15:34:14 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:34:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:34:15 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:34:15 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC012_Navigate to signup page from login form" time="17.28" classname="Test Cases/Login/TC012_Navigate to signup page from login form" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:34:15 - [TEST_CASE][PASSED] - Test Cases/Login/TC012_Navigate to signup page from login form: Test Cases/Login/TC012_Navigate to signup page from login form
+
+08-07-2024T15:34:15 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+08-07-2024T15:34:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-07-2024T15:34:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+08-07-2024T15:34:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:34:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-07-2024T15:34:19 - [TEST_STEP][PASSED] - println("Browser is opened"): null
+
+08-07-2024T15:34:19 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:34:23 - [MESSAGE][PASSED] - Navigate to 'https://task-buddy-d414881265e1.herokuapp.com/' successfully
+
+08-07-2024T15:34:23 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:34:23 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/'
+
+08-07-2024T15:34:23 - [TEST_STEP][PASSED] - ExpectedURL = "https://task-buddy-d414881265e1.herokuapp.com/": null
+
+08-07-2024T15:34:23 - [TEST_STEP][PASSED] - verifyMatch(ActualURL, ExpectedURL, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:34:23 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/' are matched 
+
+08-07-2024T15:34:23 - [TEST_STEP][PASSED] - println("The website is accessible"): null
+
+08-07-2024T15:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/a_Login")): Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/a_Login' is clicked on
+
+08-07-2024T15:34:28 - [TEST_STEP][PASSED] - ActualUrlLogin = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:34:28 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/login'
+
+08-07-2024T15:34:28 - [TEST_STEP][PASSED] - ExpectedUrlLogin = "https://task-buddy-d414881265e1.herokuapp.com/login": null
+
+08-07-2024T15:34:28 - [TEST_STEP][PASSED] - verifyMatch(ActualUrlLogin, ExpectedUrlLogin, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:34:28 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/login' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/login' are matched 
+
+08-07-2024T15:34:28 - [TEST_STEP][PASSED] - ActualTitleLogin = getText(findTestObject("Object Repository/Login/Page_TaskBuddy/strong_Login_title")): Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:34:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Page_TaskBuddy/strong_Login_title' is: 'Login'
+
+08-07-2024T15:34:29 - [TEST_STEP][PASSED] - ExpectedTitleLogin = "Login": null
+
+08-07-2024T15:34:29 - [TEST_STEP][PASSED] - verifyMatch(ActualTitleLogin, ExpectedTitleLogin, false): Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:34:29 - [MESSAGE][PASSED] - Actual text 'Login' and expected text 'Login' are matched 
+
+08-07-2024T15:34:29 - [TEST_STEP][PASSED] - println("The Login page is displayed"): null
+
+08-07-2024T15:34:29 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\LoginPage.png"): Taking screenshot successfully
+
+08-07-2024T15:34:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\LoginPage.png]]
+
+08-07-2024T15:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_TaskBuddy/a_Register")): Object: 'Object Repository/Login/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_TaskBuddy/a_Register' is clicked on
+
+08-07-2024T15:34:30 - [TEST_STEP][PASSED] - ActualRegisterPage = getUrl(): Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:34:30 - [MESSAGE][PASSED] - Current window's url is: 'https://task-buddy-d414881265e1.herokuapp.com/register'
+
+08-07-2024T15:34:30 - [TEST_STEP][PASSED] - ExpectedRegisterPage = "https://task-buddy-d414881265e1.herokuapp.com/register": null
+
+08-07-2024T15:34:30 - [TEST_STEP][PASSED] - verifyMatch(ActualRegisterPage, ExpectedRegisterPage, false): Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:34:30 - [MESSAGE][PASSED] - Actual text 'https://task-buddy-d414881265e1.herokuapp.com/register' and expected text 'https://task-buddy-d414881265e1.herokuapp.com/register' are matched 
+
+08-07-2024T15:34:30 - [TEST_STEP][PASSED] - println("The Register page is displayed"): null
+
+08-07-2024T15:34:30 - [TEST_STEP][PASSED] - takeScreenshot("C:\Taskbuddy\RegisterPage2.png"): Taking screenshot successfully
+
+08-07-2024T15:34:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Taskbuddy\RegisterPage2.png]]
+
+08-07-2024T15:34:31 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null
+
+08-07-2024T15:34:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-07-2024T15:34:32 - [MESSAGE][PASSED] - Browser is closed
+
+08-07-2024T15:34:32 - [TEST_STEP][PASSED] - println("Browser is closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-07-2024T15:30:59 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/Login/TC012_Navigate to signup page from login form]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

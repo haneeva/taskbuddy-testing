@@ -186,4 +186,75 @@
          <variableId>56b179bc-8cd3-4f06-8741-0d785fcb69ea</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>95b5bcfd-bafb-4898-9071-02ba24fe3e45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC008_Login successful</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a9ff768-31ab-4cd4-85c2-4dbcacd9703a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebd80e58-fda0-4c1f-8b79-7eb9fe128aaf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3be242f2-ddba-4863-b741-a7840c71a0ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC009_Login with invalid email address</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d53ebc4a-2865-454b-9212-bf19d000b638</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9ab9005-2184-40dd-baf4-b160970562a7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39877096-4d94-418d-aea0-f08468d4fd9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC010_Login with invalid password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c3da021b-8329-4bcd-b810-04e2ae3aa5d5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>258e5868-6ec6-4bc3-8070-b94661a84551</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dedd2e47-c4d8-43d5-ba0e-39c2908ff6ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC011_Login with empty data</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ed13f3f-8efa-4425-b550-3a0f98da2fa6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC012_Navigate to signup page from login form</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

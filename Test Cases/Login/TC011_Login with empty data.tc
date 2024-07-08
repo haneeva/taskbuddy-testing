@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_Login with empty data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7574efa3-f9ba-447f-919d-2721fd81139c</testCaseGuid>
+</TestCaseEntity>

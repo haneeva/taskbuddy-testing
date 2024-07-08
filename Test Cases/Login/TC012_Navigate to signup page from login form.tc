@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012_Navigate to signup page from login form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eabee054-d579-4a98-a20f-d7c671a2a33e</testCaseGuid>
+</TestCaseEntity>

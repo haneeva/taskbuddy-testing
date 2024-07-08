@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_Login with invalid email address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6a8f539-4f09-445a-b5a1-11bdf4aa6a24</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d53ebc4a-2865-454b-9212-bf19d000b638</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9ab9005-2184-40dd-baf4-b160970562a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'pinkan@yopmail.com'</defaultValue>
+      <description></description>
+      <id>d53ebc4a-2865-454b-9212-bf19d000b638</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'wNodeYW9pq6nLRMlcvSa2A=='</defaultValue>
+      <description></description>
+      <id>f9ab9005-2184-40dd-baf4-b160970562a7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

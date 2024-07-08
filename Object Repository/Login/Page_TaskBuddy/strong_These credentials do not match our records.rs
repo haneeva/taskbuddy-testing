@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_These credentials do not match our records</name>
+   <tag></tag>
+   <elementGuidId>aab05e0f-32b7-4ce4-8933-7689fe9fc321</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div/div[2]/form/div/span[2]/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;These credentials do not match our records.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>174619de-dd39-42b0-80cd-36e50bce8d47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>These credentials do not match our records.</value>
+      <webElementGuid>43134716-3556-4e36-b9e2-dd87f3247523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/main[@class=&quot;py-4&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;d-flex justify-content-center h-100&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;input-group mb-3&quot;]/span[@class=&quot;invalid-feedback&quot;]/strong[1]</value>
+      <webElementGuid>87ce7c22-8a8e-40e0-9932-c98d4853c099</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/div/div[2]/form/div/span[2]/strong</value>
+      <webElementGuid>a6bb4a92-3d75-4446-9af4-711367493394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::strong[1]</value>
+      <webElementGuid>fb2ca139-a119-49f8-a1b6-161bcc8bf4d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='These credentials do not match our records.']/parent::*</value>
+      <webElementGuid>3d7284ae-20f6-438f-844b-f6f774efcc33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>92908981-1e86-4aec-877c-d2156f1ed1f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'These credentials do not match our records.' or . = 'These credentials do not match our records.')]</value>
+      <webElementGuid>8b07dec2-0197-4e79-8aa4-80a121dcb282</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

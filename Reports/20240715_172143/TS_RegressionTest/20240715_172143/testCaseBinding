@@ -1,0 +1,26 @@
+{"testCaseName":"Test Cases/Registration/TC001_Create a new account successful","testCaseId":"Test Cases/Registration/TC001_Create a new account successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC002_Create a new account with invalid email","testCaseId":"Test Cases/Registration/TC002_Create a new account with invalid email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC003_Create a new account with invalid password","testCaseId":"Test Cases/Registration/TC003_Create a new account with invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password","testCaseId":"Test Cases/Registration/TC004_Create a new account with with confirm password does not match with password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC005_Navigate to login page from registration form","testCaseId":"Test Cases/Registration/TC005_Navigate to login page from registration form","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC006_Create a new account with empty full name","testCaseId":"Test Cases/Registration/TC006_Create a new account with empty full name","iterationVariableName":""}
+{"testCaseName":"Test Cases/Registration/TC007_Create a new account with empty data","testCaseId":"Test Cases/Registration/TC007_Create a new account with empty data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC008_Login successful","testCaseId":"Test Cases/Login/TC008_Login successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC009_Login with invalid email address","testCaseId":"Test Cases/Login/TC009_Login with invalid email address","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC010_Login with invalid password","testCaseId":"Test Cases/Login/TC010_Login with invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC011_Login with empty data","testCaseId":"Test Cases/Login/TC011_Login with empty data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC012_Navigate to signup page from login form","testCaseId":"Test Cases/Login/TC012_Navigate to signup page from login form","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC013_Create a new story successful","testCaseId":"Test Cases/Story/TC013_Create a new story successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC014_Create new story with empty title","testCaseId":"Test Cases/Story/TC014_Create new story with empty title","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC015_Create new story with empty label","testCaseId":"Test Cases/Story/TC015_Create new story with empty label","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC016_Create new story with empty priority","testCaseId":"Test Cases/Story/TC016_Create new story with empty priority","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC017_Create new story with empty assigned to","testCaseId":"Test Cases/Story/TC017_Create new story with empty assigned to","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC018_Create new story with empty story status","testCaseId":"Test Cases/Story/TC018_Create new story with empty story status","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC019_Create new story with empty description","testCaseId":"Test Cases/Story/TC019_Create new story with empty description","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC020_Cancel to create new story","testCaseId":"Test Cases/Story/TC020_Cancel to create new story","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC021_Update the existing story successful","testCaseId":"Test Cases/Story/TC021_Update the existing story successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC022_View the existing story","testCaseId":"Test Cases/Story/TC022_View the existing story","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC023_Delete the existing story successful","testCaseId":"Test Cases/Story/TC023_Delete the existing story successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC024_Cancel to delete the existing story","testCaseId":"Test Cases/Story/TC024_Cancel to delete the existing story","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC025_Inquiry story with valid data","testCaseId":"Test Cases/Story/TC025_Inquiry story with valid data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Story/TC026_Inquiry story with invalid data","testCaseId":"Test Cases/Story/TC026_Inquiry story with invalid data","iterationVariableName":""}

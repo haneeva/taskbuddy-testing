@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC025_Inquiry story with valid data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a57bc8fb-c76c-40ea-85b4-4c54a0f7fea4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e482024-db8f-431f-90be-b6257bcc8521</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'account'</defaultValue>
+      <description></description>
+      <id>5e482024-db8f-431f-90be-b6257bcc8521</id>
+      <masked>false</masked>
+      <name>data</name>
+   </variable>
+</TestCaseEntity>

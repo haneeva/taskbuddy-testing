@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013_Create a new story successful</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b814c77c-dc42-46e5-975c-c60be8a521b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33e8e6f6-3281-430f-91c8-f3fbc90dfdf5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25f9b0c5-59e5-467a-82d3-610ba0898f4f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0641b754-34d3-4e0c-93ba-f6a89fb97e29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'I wanna have an account'</defaultValue>
+      <description></description>
+      <id>33e8e6f6-3281-430f-91c8-f3fbc90dfdf5</id>
+      <masked>false</masked>
+      <name>storytitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account'</defaultValue>
+      <description></description>
+      <id>25f9b0c5-59e5-467a-82d3-610ba0898f4f</id>
+      <masked>false</masked>
+      <name>storylabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lorem Ipsum'</defaultValue>
+      <description></description>
+      <id>0641b754-34d3-4e0c-93ba-f6a89fb97e29</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

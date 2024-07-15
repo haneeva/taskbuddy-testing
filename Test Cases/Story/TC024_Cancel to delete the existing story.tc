@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC024_Cancel to delete the existing story</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>71e300a4-9cd3-4bf0-bbc8-1f1cbdb60b2c</testCaseGuid>
+</TestCaseEntity>

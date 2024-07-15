@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_All Stories_title</name>
+   <tag></tag>
+   <elementGuidId>548d5d5e-cbe7-459a-a1f5-e0116f611ea4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;title&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Search by name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>eb3bfb6a-3181-40b4-99c2-093b8e325410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-sm shadow-none</value>
+      <webElementGuid>0f58bdb8-4b7f-4e20-a510-eceef87c705e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by name</value>
+      <webElementGuid>0afa140b-3655-429b-b9bd-ea1e6f283cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>058f5efa-3886-4b68-bb76-e32e564aa9b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ticketsTable&quot;)/div[@class=&quot;card-header border-bottom border-200 px-0&quot;]/div[@class=&quot;d-lg-flex justify-content-between&quot;]/div[@class=&quot;row flex-between-center gy-2 px-x1&quot;]/div[@class=&quot;col-auto&quot;]/form[1]/div[@class=&quot;input-group input-search-width&quot;]/input[@class=&quot;form-control form-control-sm shadow-none&quot;]</value>
+      <webElementGuid>68647719-7088-4051-be3b-ab20a7cb25e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='title']</value>
+      <webElementGuid>e62cf4df-d5c3-4168-9398-2973d5d905a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ticketsTable']/div/div/div/div[2]/form/div/input</value>
+      <webElementGuid>43e658af-284e-4595-87db-0657391ccf30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>8a5c042f-dfb5-4fce-a7da-36bf0532df12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search by name' and @name = 'title']</value>
+      <webElementGuid>c08e23e4-c9f6-41e5-920d-82b54a40e571</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

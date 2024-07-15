@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015_Create new story with empty label</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4640893-8749-455c-b8f2-4e2b47a5d735</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91b2a4dc-d0de-44fa-9ea6-9ec07e5513c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2136633-7d24-41c9-af89-a422a7513198</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'I wanna have an account'</defaultValue>
+      <description></description>
+      <id>91b2a4dc-d0de-44fa-9ea6-9ec07e5513c8</id>
+      <masked>false</masked>
+      <name>storytitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lorem Ipsum'</defaultValue>
+      <description></description>
+      <id>f2136633-7d24-41c9-af89-a422a7513198</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

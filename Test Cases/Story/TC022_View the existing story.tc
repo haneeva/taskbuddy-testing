@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC022_View the existing story</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>217afe5d-453f-4744-910d-91a3525b67b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45c35d06-dc72-48cc-a0bd-23702a8411c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lorem Ipsum Testing Edit'</defaultValue>
+      <description></description>
+      <id>45c35d06-dc72-48cc-a0bd-23702a8411c0</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

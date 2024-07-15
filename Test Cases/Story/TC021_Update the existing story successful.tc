@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC021_Update the existing story successful</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10ab246c-b06a-4554-bd47-233cea455c9a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9be1a581-a899-43c9-b20e-859218cdd05f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lorem Ipsum Testing Edit'</defaultValue>
+      <description></description>
+      <id>9be1a581-a899-43c9-b20e-859218cdd05f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

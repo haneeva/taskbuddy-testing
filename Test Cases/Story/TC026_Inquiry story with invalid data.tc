@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC026_Inquiry story with invalid data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd98c11f-f8e9-42d3-adaf-3956c699d91e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebeea24a-64f3-4718-82d3-4ac675c8c394</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'registration'</defaultValue>
+      <description></description>
+      <id>ebeea24a-64f3-4718-82d3-4ac675c8c394</id>
+      <masked>false</masked>
+      <name>data</name>
+   </variable>
+</TestCaseEntity>
